@@ -1,0 +1,48 @@
+body, html {    
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    display: contents;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #dc3545;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.headContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #000000;
+    margin-top: auto!important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fLeft, .fRight {
+    color:#fff;
+    background:#dc3545;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+}
